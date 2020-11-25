@@ -12,5 +12,5 @@ t = np.linspace(0, 100, 2000) # Stworzenie dwóch tysięcy liczb w przedziale (0
 
 for time in t:
     if v(time) >= 335:
-         print(f"Czas potrzebny do osiagniecia predkosci 335 {time} sekund") 
+         print(f"Czas potrzebny do osiagniecia predkosci 335 m/s {time} sekund") 
          break
