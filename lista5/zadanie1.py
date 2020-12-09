@@ -15,4 +15,6 @@ xnew = np.arange(0, 6, 0.01)
 ynew = f(xnew)   # use interpolation function returned by `interp1d`
 
 plt.plot(x, y, 'o', xnew, ynew, '-')
+plt.xlabel("h (km)")
+plt.ylabel("p (kg/m^3)")
 plt.show()
