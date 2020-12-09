@@ -1,4 +1,5 @@
 import numpy as np
+import math as m
 
 # Answers: -7, -2, 2i, -3i
 
@@ -11,5 +12,5 @@ poly = [1, complex_1, -complex_2, complex_3, -84]
 ans = np.roots(poly)
 
 for num in ans:
-    print(f"Rzecziwysta dla {num}: {num.real}")
-    print(f"Imaginary dla {num}: {num.imag}")
+    print(f"Rzecziwysta dla {num}: {round(num.real, 3)}")
+    print(f"Imaginary dla {num}: {round(num.imag, 3)}")
