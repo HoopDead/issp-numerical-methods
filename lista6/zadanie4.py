@@ -12,3 +12,5 @@ for i in values:
     for num in x:
         y.append(f(num))
     print(f"Wynik {simps(y, x)}")
+
+# Według Wolframaalpha i wyników uzyskanych przez program można wnioskować, że im większy numer węzła, tym dokładniejszy wynik
